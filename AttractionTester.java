@@ -74,13 +74,14 @@ public class AttractionTester {
             switch (x){
                case 0:
                     wetRide Splashy = new wetRide("splashy",8, 168, 2.0, 12.3, 500.0, 7.00, true, false, false );
+                    JOptionPane.showMessageDialog(null, Splashy.BlurbSup() );
                     Splashy.ride();
                     break;
            
                 case 1:
                 rollercoaster wildWacky  = new rollercoaster ("Willy's wacky ride", 28, 400, 25.5, 15.0, 500.0, 7.0, true, 12,"solo");
                 JOptionPane.showMessageDialog(null, wildWacky.rideCaculation());
-
+                JOptionPane.showMessageDialog(null, wildWacky.BlurbSup() );
                     wildWacky.rideWait();
                     break;
                     
