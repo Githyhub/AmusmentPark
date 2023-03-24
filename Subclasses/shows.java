@@ -25,6 +25,6 @@ public class shows extends Attraction
     
     public String perform()
     {
-        return super.getName() + " is happening! \nThe audience is mildly pleased!";
+        return " "+  super.getName() + " is happening! \nThe audience is mildly pleased!";
     }
 }

@@ -88,12 +88,12 @@ public class Attraction {
     
     public String BlurbSup(){
       return( "You walk towards panel of text near the entrance of "+ Name + ". \n"+
-                "It seems each cart could fit  " + rideCapacity + ". \n"+
-                "There seems to be an average of  "+ riders +"for this ride. \n"+
-                "Looking down at the panel the cost of one ride is "+ ticketCost + ". \n" +
-                "In bold bright red letters it state a " + rideLength + "minute ride time. \n" +
-                "It seems like this ride can take in " + rideRate + "riders per hour. \n"+ 
-                "Looking at the wait time there is also a time of activity for this ride from the parks opening to  " + hourOpen + " pm \n");
+                "It seems each cart could fit  " + rideCapacity + " people per cart. \n"+
+                "There seems to be an average of  "+ riders +" riders per hour for this ride. \n"+
+                "Looking down at the panel the cost of one ride is "+ ticketCost + " $. \n" +
+                "In bold bright red letters it state a " + rideLength + " minute ride time. \n" +
+                "It seems like this ride can take in " + rideRate + " riders per hour. \n"+ 
+                "Looking at the wait time there is also a time of activity for this ride from the parks opening to  " + hourOpen + " pm. \n");
                 
     }
     public double getBalance()

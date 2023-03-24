@@ -86,7 +86,8 @@ public class AttractionTester {
                     
                 case 2:
                     shows physicLab = new shows ("Yaskis show", 28, 400, 25.5, 15.0, 500.0, 7.0, false,200, false);
-                     
+                    JOptionPane.showMessageDialog(null, physicLab.BlurbSup() + " "+   physicLab.getName() + "You go into the delapitaed tent and see a dicombobulated crowd, it seems like a very shotty show." + physicLab.perform());
+                 
                        
                     break;
                 
